@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400,500,600,700&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins','sans-serif';
+    }
+
+    body {
+        background-color: #f5f5f5;
+    }
+
+    header {
+        background-image: url(images/fondoazul.svg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+
+    } 
+    .container{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .container img {
+        padding: 150px 0px 0px 0px;
+        width: 29%; 
+        height: 29%; 
+    }
+
+    .menu {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+    .menu .logo {
+        font-weight: 700;
+        font-size: 25px;
+        color: #ffffff;
+    }
+    .menu .navbar ul li {
+        position: relative;
+        float: left;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: #ffffff;
+        display: block;
+
+        display: inline-block;
+        background-color: rgba(170, 177, 255, 0.3);
+        border: 1px solid #aab1ff;
+        margin: 35px 10px 0px 0px;
+        padding: 15px 25px;
+        color: #ffffff;
+        border-radius: 25px;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: steelblue;
+    }
+
+    #menu {
+        display: none;
+    }
+    .menu-icono {
+        width: 25px;
+    }
+
+    .menu label {
+        cursor: pointer;
+        display: none;
+    }
+
+    .header-content {
+        display: flex;
+    }
+    .content {
+        padding: 150px 50px 0px 0px;
+    }
+
+    .content h1 {
+        color: #ffffff;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 500 ;
+        line-height: 55px;
+    }
+    .content p {
+        margin-top: 25px;
+        color: black;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: justify;
+        text-transform: none;
+    }
+
+    .btn-1 {
+        display: inline-block;
+        background-color: rgba(170, 177, 255, 0.3);
+        border: 1px solid #aab1ff;
+        margin: 35px 10px 0px 0px;
+        padding: 15px 25px;
+        color: #ffffff;
+        border-radius: 25px;
+    }
+    
+    .btm-1:hover {
+        background-color: #aab1ff;
+    }
