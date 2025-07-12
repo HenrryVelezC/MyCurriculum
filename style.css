@@ -129,20 +129,34 @@ header {
     background-color: #aab1ff;
 }
 
-@media (max-width:991px) {
+@media (max-width:991px) { 
+    
     .menu {
-        padding: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .menu-icono {
+        width: 30px;
+        height: auto;
     }
 
     .menu label {
-        padding: 0px;
+        padding: 10px;
         display: initial;
     }
 
     .menu .navbar {
+        padding: 10px;
         position: absolute;
         top: 100%;
         left: 0;
@@ -166,24 +180,29 @@ header {
         background-position: center center;
     }
 
-    .header-content{
+    .header-content {
         flex-direction: column;
         text-align: center;
         align-items: center;
         padding: 0px 30px;
 
     }
-    .content{
+
+    .content {
         padding: 0px;
     }
+
     .content h1 {
         margin-top: 500px;
-        font-size: 45px;
+        font-size: 35px;
     }
+
     .content p {
         margin-top: 50px;
+        font-size: 20px;
     }
-    .header-content img{
+
+    .header-content img {
         width: 250px;
     }
 
