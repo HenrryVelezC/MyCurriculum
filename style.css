@@ -48,12 +48,6 @@ header {
     z-index: 1000;
 }
 
-.menu .logo {
-    font-weight: 700;
-    font-size: 25px;
-    color: #ffffff;
-}
-
 .menu .navbar ul li {
     position: relative;
     float: left;
@@ -68,7 +62,7 @@ header {
     display: inline-block;
     background-color: rgba(170, 177, 255, 0.3);
     border: 1px solid #aab1ff;
-    margin: 35px 10px 0px 0px;
+    margin: 5px 5px 0px 0px;
     padding: 15px 25px;
     border-radius: 25px;
 }
@@ -95,7 +89,7 @@ header {
 }
 
 .content {
-    padding: 150px 50px 0px 0px;
+    padding: 150px 150px 0px 0px;
 }
 
 .content h1 {
@@ -109,10 +103,9 @@ header {
 .content p {
     margin-top: 25px;
     color: black;
+    text-transform: none;
     font-size: 30px;
     line-height: 40px;
-    text-align: justify;
-    text-transform: none;
 }
 
 .btn-1 {
@@ -131,52 +124,36 @@ header {
 
 @media (max-width:991px) { 
     
+
     .menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding: 20px;
     }
 
-    .logo {
-        font-size: 24px;
-        font-weight: bold;
-        text-decoration: none;
-        color: #000;
-    }
-
-    .menu-icono {
-        width: 30px;
-        height: auto;
-    }
-
     .menu label {
-        padding: 10px;
         display: initial;
     }
 
     .menu .navbar {
-        padding: 10px;
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         background-color: #86bede;
         display: none;
-        flex-direction: column;
+
     }
 
     .menu .navbar ul li {
         width: 100%;
     }
 
-    #menu:checked~.navbar {
-        display: flex;
+    #menu:checked ~ .navbar {
+        display: initial;
     }
 
     header {
         height: 0vh;
-        padding: 700px 0px;
+        padding: 500px 0px;
         background-position: center center;
     }
 
