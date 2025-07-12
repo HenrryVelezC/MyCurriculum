@@ -132,9 +132,13 @@ header {
 @media (max-width:991px) {
     .menu {
         padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .menu label {
+        padding: 0px;
         display: initial;
     }
 
@@ -143,8 +147,9 @@ header {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #5b50bc;
+        background-color: #86bede;
         display: none;
+        flex-direction: column;
     }
 
     .menu .navbar ul li {
@@ -152,12 +157,12 @@ header {
     }
 
     #menu:checked~.navbar {
-        display: initial;
+        display: flex;
     }
 
     header {
         height: 0vh;
-        padding: 400px 0px;
+        padding: 700px 0px;
         background-position: center center;
     }
 
@@ -172,14 +177,14 @@ header {
         padding: 0px;
     }
     .content h1 {
-        margin-top: 100px;
+        margin-top: 500px;
         font-size: 45px;
     }
     .content p {
-        margin-top: 0px;
+        margin-top: 50px;
     }
     .header-content img{
-        width: 150px;
+        width: 250px;
     }
 
 }
