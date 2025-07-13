@@ -89,7 +89,7 @@ header {
 }
 
 .content {
-    padding: 50px 150px 0px 0px;
+    padding: 80px 150px 0px 0px;
 }
 
 .content h1 {
@@ -167,7 +167,7 @@ header {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        padding: 0px 30px;
+        padding: 0px 10px;
 
     }
 
