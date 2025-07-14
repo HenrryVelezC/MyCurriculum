@@ -50,7 +50,7 @@ header {
 
 .menu .navbar ul li {
     position: relative;
-    float: right;
+    float: left;
 }
 
 .menu .navbar ul li a {
@@ -122,6 +122,75 @@ header {
     background-color: #aab1ff;
 }
 
+/*EXPERIENCIA LABORAL*/
+
+.header-content1 {
+    display: block;
+}
+
+.header-content1 .divssc {
+    display: flex;
+}
+
+.header-content1 .divnf {
+    display: flex;
+}
+
+.header-content1 .divmp {
+    display: flex;
+}
+
+.content1 {
+    padding: 80px 150px 0px 0px;
+}
+
+.content1 h1 {
+    padding: 0px 20px;
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.content1 p {
+    padding: 0px 40px;
+    margin-top: 25px;
+    color: black;
+    text-transform: none;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.divssc img {
+    padding: 100px 0px 0px 0px;
+    width: 30%;
+    height: 30%;
+}
+
+.divnf img {
+    padding: 50px 0px 0px 0px;
+    width: 80%;
+    height: 80%;
+}
+
+.divmp img {
+    padding: 100px 0px 0px 0px;
+    width: 80%;
+    height: 80%;
+}
+
+.imagen_mp:hover {
+    width: 100%;
+    height: 100%;
+}
+
+.imagen_nf:hover {
+    width: 85%;
+    height: 85%;
+}
+
+
 @media (max-width:991px) { 
     
 
@@ -164,6 +233,41 @@ header {
     }
 
     .header-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px 10px;
+
+    }
+
+    .content {
+        padding: 0px;
+    }
+
+    .content h1 {
+        margin-top: 500px;
+        font-size: 35px;
+    }
+
+    .content p {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .header-content img {
+        width: 250px;
+    }
+
+
+    /*EXPERIENCIA LABORAL*/
+
+    header {
+        height: 0vh;
+        padding: 500px 0px;
+        background-position: center center;
+    }
+
+    .header-content1 {
         flex-direction: column;
         text-align: center;
         align-items: center;
